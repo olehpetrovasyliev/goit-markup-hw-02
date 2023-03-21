@@ -35,9 +35,9 @@ body{
 .contact:focus {
     color: #404BBF;
 }
-/* Інше */
 .footer {
     background-color: #2E2F42;
+    color: #F4F4FD;
     width: 1440px;
         height: 312px;
         left: 0px;
@@ -78,6 +78,15 @@ body{
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
+}
+.benefits,
+.works-index,
+.teammembers,
+.works,
+.filters,
+.menu-items,
+.contacts{
+    list-style-type: none;
 }
 
 /* index */
@@ -124,9 +133,7 @@ body{
         font-size: 16px;
         line-height: 24px;
 }
-.portfolio{
 
-}
 .teammember h3{
     font-family: 'Roboto';
         font-style: normal;
@@ -151,6 +158,7 @@ body{
         height: 48px;
         border: 1px solid #E7E9FC;
         border-radius: 4px;
+        /* зробити так щобрівнялись по тексту */
 }
 .filter:hover,
 .filter:active{

@@ -67,7 +67,8 @@ body{
     color: #F4F4FD;
 }
 .logo-studio-header{
-        color: #2E2F42;;
+        color: #2E2F42;
+        letter-spacing: 0.03em;
 }
 .logo-web:link{
     text-decoration: none;S
@@ -109,7 +110,7 @@ body{
     height: 56px;
     left: 20px;
     top: 20px;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: "Roboto";
@@ -126,7 +127,7 @@ body{
         height: 56px;
         left: 20px;
         top: 88px;
-        background: #404BBF;
+        background-color: #404BBF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
 }
@@ -148,13 +149,32 @@ body{
         line-height: 24px;
         letter-spacing: 0.02em;
 }
-
+.works-header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team{
+   background-color:#F4F4FD; 
+}
+.team-header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
 .teammember h3{
+    color: #2e2f42;
+    line-height: 24px;
+        text-transform: capitalize;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 24px
+        letter-spacing: 0.02em;
 }
 .teammember p{
     color: #434455;

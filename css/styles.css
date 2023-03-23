@@ -118,14 +118,16 @@ body{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
 }
-.benefit h3{
+.benefit-header{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
-.benefit p{
+.benefit-text{
     color: #434455;
         font-family: 'Roboto';
         font-style: normal;

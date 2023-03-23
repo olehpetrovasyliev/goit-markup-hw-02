@@ -47,13 +47,13 @@ body{
         top: 1764px;
 }
 .logo-web{
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
     font-family: 'Raleway',sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        letter-spacing: 0.03em;
-    color: #4d5ae5;
     text-decoration: none;
     text-transform: uppercase;
 }

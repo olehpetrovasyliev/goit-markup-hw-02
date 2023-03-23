@@ -1,6 +1,6 @@
 /* all */
 
-body{
+body:root{
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     /* delete list points  */
@@ -74,17 +74,17 @@ body{
     text-decoration: none;S
 }
 .footer p{
-        font-weight
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;}
+
+}
+
+
 .works,
 .filters,
 .menu-item,
 .contacts{
-    list-style-type: none;
+    list-style: none;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color: #2e2f42;
 }
 
 /* index */

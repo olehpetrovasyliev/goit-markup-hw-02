@@ -46,7 +46,7 @@ body{
         left: 0px;
         top: 1764px;
 }
-.logo-web{
+.logo{
     letter-spacing: 0.03em;
     color: #4D5AE5;
     font-family: 'Raleway',sans-serif;
@@ -57,11 +57,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
 }
-.link{
-    text-decoration: none ;
-    letter-spacing: 0.02em;
-        color: #2e2f42;
-}
+
 .logo-studio-footer {
     color: #F4F4FD;
     letter-spacing: 0.03em;
@@ -70,7 +66,7 @@ body{
         color: #2E2F42;
         letter-spacing: 0.03em;
 }
-.logo-web:link{
+.logo:link{
     text-decoration: none;S
 }
 .footer p{

@@ -99,6 +99,11 @@ body{
     width: 1440px;
     height: 600px;
 }
+.main-header{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
 .order{
     width: 169px;
     height: 56px;
@@ -107,6 +112,12 @@ body{
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
         
 }
 .order:hover{

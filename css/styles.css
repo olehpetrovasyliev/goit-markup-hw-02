@@ -64,6 +64,7 @@ body{
 }
 .logo-studio-footer {
     color: #F4F4FD;
+    letter-spacing: 0.03em;
 }
 .logo-studio-header{
         color: #2E2F42;
@@ -77,19 +78,13 @@ body{
 }
 
 
-.works,
-.filters,
-.menu-item,
-.contacts{
-    list-style: none;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 
 /* index */
 
 .list{
     list-style: none;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .hero{
     background-color: #2E2F42;

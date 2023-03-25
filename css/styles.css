@@ -177,7 +177,7 @@ body{
     color: #2E2F42;
 }
 .teammember-name{
-    color: var(--color-subtle-text);
+    color: var(--color-body-text);
     line-height: 24px;
         text-transform: capitalize;
     font-family: 'Roboto';
@@ -190,13 +190,13 @@ body{
     background-color: #ffffff;
 }
 .teammember-position{
+    color: var(--color-subtle-text);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: var(--color-dark);
 }
 /* portfolio  */
 

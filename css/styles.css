@@ -17,13 +17,13 @@ body{
     --color-light: #F4F4FD;
 }
 .menu-item{
+    letter-spacing: 0.02em;
     text-decoration: none;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         color: #2e2f42;
-        letter-spacing: 0.02em;
 }
 .menu-item:hover,
 .menu-item:focus{
@@ -37,13 +37,14 @@ body{
         letter-spacing: 0.02em;
 }
 .contact{
+    letter-spacing: 0.02em;
     font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         color: var(--color-body-text);
         text-decoration: none;
-        letter-spacing: 0.02em;
+        
 }
 .contacts-list{
     font-style: normal;
@@ -215,7 +216,7 @@ body{
         /* зробити так щобрівнялись по тексту */
 }
 .filter:hover,
-.filter:active{
+.filter:focus{
     background-color:#404BBF;
     color:#FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);

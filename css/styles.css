@@ -5,7 +5,16 @@ body{
     color: #434455;
 }
 :root{
-    --color-1:#ffffff;
+    --color-white:#ffffff;
+    --color-primary: #4D5AE5;
+    --color-pressed: #404BBF;
+    --color-dark:#2E2F42;
+    --color-success:#31D0AA;
+    --color-body-text:#434455;
+    --color-subtle-text: #8E8F99;
+    --color-accent: #E7E9FC;
+    --color-overlay:#2E2F42;
+    --color-light: #F4F4FD;
 }
 .menu-item{
     text-decoration: none;

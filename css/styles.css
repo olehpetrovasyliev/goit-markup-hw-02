@@ -2,7 +2,7 @@
 body{
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: var(--color-body-text);
 }
 :root{
     --color-white:#ffffff;
@@ -22,6 +22,7 @@ body{
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+        color: var(--color-overlay);
 }
 .menu-item:hover,
 .menu-item:focus{
@@ -38,7 +39,7 @@ body{
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: #434455;
+        color: var(--color-body-text);
         text-decoration: none;
         letter-spacing: 0.02em;
 }
@@ -145,7 +146,7 @@ body{
         color: #2e2f42;
 }
 .benefit-text{
-    color: #434455;
+    color: var(--color-body-text);
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -186,7 +187,7 @@ body{
     background-color: #ffffff;
 }
 .teammember-position{
-    color: #434455;
+    color: var(--color-body-text);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;

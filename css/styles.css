@@ -13,17 +13,18 @@ body{
     --color-body-text:#434455;
     --color-subtle-text: #8E8F99;
     --color-accent: #E7E9FC;
-    --color-overlay:#2E2F42;
+    --color-overlay:#2E2F42 40%;
     --color-light: #F4F4FD;
 }
 .menu-item{
+    color: var(--color-dark);
     letter-spacing:0.02em;
     text-decoration: none;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        color: #2e2f42;
+
 }
 .menu-item:hover,
 .menu-item:focus{
@@ -33,7 +34,7 @@ body{
         font-size: 16px;
         line-height: 24px;
         text-decoration: underline;
-        color:#404BBF;
+        color:var(--color-pressed);
         letter-spacing: 0.02em;
 }
 .contact{
@@ -86,9 +87,6 @@ body{
 }
 .logo:link{
     text-decoration: none;
-}
-.footer p{
-
 }
 
 
@@ -177,7 +175,7 @@ body{
     color: #2E2F42;
 }
 .teammember-name{
-    color: #2e2f42;
+    color: var(--color-subtle-text);
     line-height: 24px;
         text-transform: capitalize;
     font-family: 'Roboto';

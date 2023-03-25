@@ -225,11 +225,12 @@ body{
     text-decoration: none;
 }
 .work-header{
+    color: var(--color-dark);
     font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 .works-text{
@@ -239,4 +240,5 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: var(--color-body-text);
 }

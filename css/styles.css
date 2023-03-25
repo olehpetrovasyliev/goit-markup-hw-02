@@ -19,7 +19,7 @@ body{
 .menu-item{
     text-decoration: none;
         line-height: 24px;
-        color: var(--color-dark);
+        color: #2E2F42;
             font-family: 'Roboto', sans-serif;
             font-style: normal;
             font-weight: 500;
@@ -190,13 +190,13 @@ body{
     background-color: #ffffff;
 }
 .teammember-position{
-    color: var(--color-body-text);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        color: var(--color-dark);
 }
 /* portfolio  */
 

@@ -22,7 +22,8 @@ body{
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        color: var(--color-overlay);
+        color: #2e2f42;
+        letter-spacing: 0.02em;
 }
 .menu-item:hover,
 .menu-item:focus{
@@ -33,6 +34,7 @@ body{
         line-height: 24px;
         text-decoration: underline;
         color:#404BBF;
+        letter-spacing: 0.02em;
 }
 .contact{
     font-style: normal;

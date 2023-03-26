@@ -16,6 +16,11 @@ body{
     --color-overlay:#2E2F42 40%;
     --color-light: #F4F4FD;
 }
+.link {
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-decoration: none;
+}
 .menu-item{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -73,10 +78,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
 }
-.link{
-    letter-spacing: 0.03em;
-    color: #4D5AE5;
-}
+
 .logo-studio-footer {
     color: #F4F4FD;
     letter-spacing: 0.03em;
